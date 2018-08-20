@@ -39,9 +39,9 @@ function numReverse(arr){
 // invoking the function
 console.log(numReverse(348597));
 
-Problem 3
+// Problem 3
 
-defining a function and variables with an array
+// defining a function and variables with an array
 function fibo(){
     var array = [];
     var b = 0;
@@ -66,13 +66,13 @@ function fibo(){
 }// calling the function
 console.log(fibo());
 
-Problem 4
+// Problem 4
 
-declaring a function with a parameter of "valid"
+// declaring a function with a parameter of "valid"
 function checkCoupon(valid) {
 
-        "if" statement with Date.parse
-        Date.parse calculates milliseconds from 1/1/1970 until now
+        // "if" statement with Date.parse
+        // Date.parse calculates milliseconds from 1/1/1970 until now
         if(Date.parse(valid) > Date.now()) {
             return true;
             } else {
